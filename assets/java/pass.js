@@ -1,50 +1,34 @@
-// user clicks button to generate password //
+//USER CLICKS BUTTON TO GENERATE PASSWORD
 function generate(){
 
-    //set password length
-    let complexity = document.getElementById("slider").value;
+//USER RECEIVES PROMPTS FOR PASSWORD CRITERIA
+let length = prompt("How many characters would you like your password to be? Please choose a number between 8 and 128", "type answer here");
 
-    let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+"
+ //IF NO NUMBER SELECTED, ALERT MUST POP UP AND PREVENT MOVING FORWARD
+    //if else statements? 
+ 
+    //AFTER LENGTH IS SELECTED, SERIES OF PROMPTS COME FOR PASSWORD CRITERIA
+confirmUpper =confirm("Will this password include uppercase letters?")
+confirmLower =confirm("Will this password include lowercase letters?")
+confirmNumbers =confirm("Will this password include numbers?")
+confirmSpecial =confirm("Will this password include special characters?")
+ 
+// IF UPPER IS CONFIRMED, MUST INCLUDE UPPER.
+// IF LOWER IS CONFIRMED, MUST INCLUDE LOWER.
+// IF NUMBERS IS CONFIRMED, MUST INCLUDE NUMBERS.
+// IF SPECIAL IS CONFIRMED, MUST INCLUDE SPECIAL.
+// set values for password
+let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let lower = "abcdefghijklmnopqrstuvwxyz";
+let numbers = "1234567890";
+let special = "!@#$%^&*()-+=/.,;:'";
 
-    let password ="";
-
-    //create for loop to choose password characters
-    for(var i =0; i <= complexity; i++){
-        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
-    }
-
-    //add password to textbox/display area
-    document.getElementById("display").value = password;
-
-    //add pass to previously password sections
-    document.getElementById("lastpass").innerHTML += password + "<br>";
+//AFTER PROMPTS, RUN A FOR LOOP TO RANDOMIZE SELECTION
+for(let i =0; i<=length; i++){
+    password = password + upper.charAt + lower.charAt + numbers.charAt + special.charAt(Math.floor(Math.random() * Math.floor(upper.length)))
+}
+// ADD PASSWORD TO TEXTBOX ON SCREEN
+document.getElementById("display").value = password;
 }
 
-// set default length display to 25
-document.getElementById("length").innerHTML = "Length: 25";
-
-//function to set length based on slider
-document.getElementById("slider").oninput = function(){
-    if(document.getElementById("slider").value > 0){
-        document.getElementById("length").innerHTML = "Length: " + document.getElementById("slider").value;
-    }
-    else {
-        document.getElementById("length").innerHTML = "Length: 1";
-    }
-}
-
-// function to copy password to clipboard
-function copyPassword(){
-    document.getElementById("display").select();
-
-    document.execCommand("Copy");
-
-    alert("Password copied to clipboard!");
-}
-// user receives PROMPT for password criteria and selects what should be included:
-// - user chooses between 8-128 characters
-// - user chooses at least one of the following criterias: lowercase, uppercase, numeric, special characters 
-
-// after user defines above, a password is generated
-
-// password is then displayed on screen or through alert
+//EXECUTE ALL OF THAT AND RECEIVE A+ AND BE THE JAVASCRIPT MASTER
