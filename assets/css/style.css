@@ -1,0 +1,24 @@
+/* CSS HEX 
+--honeydew: #d2f1e4ff;
+--black-coffee: #342e37ff;
+--glossy-grape: #a799b7ff;
+--french-raspberry: #ba3b46ff;
+--tumbleweed: #d8a47fff; 
+*/
+body {
+    background-color: #d2f1e4ff;
+}
+.content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 30px;
+    background-color: #d8a47F;
+}
+h1, h2 {
+    color: #342e37;
+    text-align: center;
+}
+#display {
+    width: 100%;
+}
