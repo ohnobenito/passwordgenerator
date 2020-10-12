@@ -1,30 +1,41 @@
-
+/* Body elements */
 body {
-    background-color: #342e37ff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
+
+/* Main Header*/
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;  
+    color: #232c33ff;
+}
+
+/* Generator Styling */
 .content {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
     padding: 30px;
-    background-color: #a799b7;
+    border: #ff6542ff 10px solid;
+    background-color: #101d42ff;
+    text-align: center;  
 }
-p {
-    text-align: center;
-}
-h1, h2 {
-    color: #ba3b46;
-    text-align: center;
-}
-
 #display {
     width: 100%;
     height: 40%;
-    border: dashed 2px #ba3b46
+    border: #ff6542ff 5px solid;
 }
-/* COLOR CHART
---black-coffee: #342e37ff;
---glossy-grape: #a799b7ff;
---french-raspberry: #ba3b46ff;
-*/
+h2 {
+    text-align: center;
+    color: #ffb627ff;
+    font-family: 'Pacifico', cursive;
+}
+p {
+    color: #ffb627ff;
+}
+
+/* COLORS USED
+--honey-yellow: #ffb627ff;
+--portland-orange: #ff6542ff;
+--oxford-blue: #101d42ff;
+--gunmetal: #232c33ff; */
