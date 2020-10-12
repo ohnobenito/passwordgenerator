@@ -1,24 +1,30 @@
-/* CSS HEX 
---honeydew: #d2f1e4ff;
---black-coffee: #342e37ff;
---glossy-grape: #a799b7ff;
---french-raspberry: #ba3b46ff;
---tumbleweed: #d8a47fff; 
-*/
+
 body {
-    background-color: #d2f1e4ff;
+    background-color: #342e37ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .content {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
     padding: 30px;
-    background-color: #d8a47F;
+    background-color: #a799b7;
 }
-h1, h2 {
-    color: #342e37;
+p {
     text-align: center;
 }
+h1, h2 {
+    color: #ba3b46;
+    text-align: center;
+}
+
 #display {
     width: 100%;
+    height: 40%;
+    border: dashed 2px #ba3b46
 }
+/* COLOR CHART
+--black-coffee: #342e37ff;
+--glossy-grape: #a799b7ff;
+--french-raspberry: #ba3b46ff;
+*/
