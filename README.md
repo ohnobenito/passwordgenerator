@@ -3,6 +3,7 @@
 **Link:** https://ohnobenito.github.io/passwordgenerator
 
 **Screenshot:**
+![Screenshot:](/assets/images/passSS.png)
 
 **Overview**
 
