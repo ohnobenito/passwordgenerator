@@ -11,25 +11,28 @@
     
 </head>
 <body>
-    <nav>
-        <div class="nav navbar navbar-light bg-dark">
-            <h1> Password Generator </h1>
-        </div>
-    </nav>
+    <main>
+        <h1> Password Generator </h1> <hr>
+        <br>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-8 mx-auto">
-                <div class="content">
-                    <h2>Password Generator</h2><hr>
-                    <br>
-                    <input type="text" id="display">
-                    <br>
-                    <button onclick="">Generate! </button>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-8 mx-auto">
+                    <div class="content">
+                        <h2>Generate a Password</h2><hr>
+                        <br>
+                        <p> To use: Click "Generate" button and follow the series of prompts to create a password matching your criteria. </p>
+                        <hr>
+                        <textarea  rows="4" col="12" id="display" placeholder="secure password will appear here"></textarea>
+                        <br>
+                        <hr>
+                        <button type="button" class="btn btn-warning" onclick="generate()">Generate Password! </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+
  
     <!--JS style sheet-->
     <script src="assets/java/pass.js"></script>
