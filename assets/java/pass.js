@@ -44,24 +44,19 @@ while (!confirmUpper && !confirmLower && !confirmNumbers && !confirmSpecial); {
 let password=[]
     
 if (confirmUpper) {
-    alert("You've requested your password contains UPPERCASE");
     password = password.concat(Upper);
-    //ADD AT LEAST ONE IF TRUE
+
 }
 if (confirmLower) {
-    alert("You've requested your password contains LOWERCASE");
     password = password.concat(Lower);
-    //ADD AT LEAST ONE IF TRUE
+
 }
 if (confirmNumbers) {
-    alert("You've requested your password contains NUMBERS");
     password = password.concat(Numbers);
-    //ADD AT LEAST ONE IF TRUE
+
 }
 if (confirmSpecial) {
-    alert("You've requested your password contains SPECIAL CHARACTERS");
-    password =password.concat(Special);
-    //ADD AT LEAST ONE IF TRUE
+    password = password.concat(Special);
 }
 
 //AFTER PROMPTS, RUN A FOR LOOP WITH MATH RANDOM TO RANDOMIZE USER SELECTED CRITERIA AND GENERATE PASSWORD:
