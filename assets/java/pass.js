@@ -22,7 +22,6 @@ do {    //USING NUMBER(PROMPT TO CHANGE STRING ANSWER TO NUMBER VALUE:
     length = Number(prompt("How many characters would you like your password to be? Please choose a number between 8 and 128"));
 } 
 while (isNaN(length) || length < 8 || length > 128);
-alert("You've requested your password is " + length + " characters long");
 
 //WHILE LOOP RUNS UNTIL VALID ANSWER IS RECEIVED
  
