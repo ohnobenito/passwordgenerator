@@ -16,7 +16,7 @@ Password Generator is an application for generating a random password based on c
 [3. Usage](#Usage)<br>
 [4. License](License)<br>
 [5. Contributing](#Contributing)<br>
-[6. Technologies Used](#Technologies Used)<br>
+[6. Technologies](#Technologies)<br>
 [7. Authors](#Authors)<br>
 [8. Questions](#Questions)<br>
 
@@ -33,7 +33,7 @@ This application is covered by the MIT license. Full documentation can be found 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Technologies Used
+## Technologies
 + JavaScript
 + CSS
 + HTML
