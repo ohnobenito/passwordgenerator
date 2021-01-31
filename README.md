@@ -1,18 +1,51 @@
 # Password Generator
 
+## Description
+Password Generator is an application for generating a random password based on criteria the user selects. 
+
 **Link:** https://ohnobenito.github.io/passwordgenerator
 
 **Screenshot:**
 ![Screenshot:](/assets/images/passSS.png)
 
-**Overview**
+![Badge:](https://img.shields.io/badge/License-mit-brightgreen)
 
-For this job I had to create a website that employees could use to generate a random password based on criteria they selected. Employees can now easily go to this webpage and are guided by prompts to fulfill their password needs including length and character usage. The page has a clean, easy userface and is responsive on all screens.
- 
+## Table of Contents
+[1. Description](#Description)<br>
+[2. Installation](#Installation)<br>
+[3. Usage](#Usage)<br>
+[4. License](License)<br>
+[5. Contributing](#Contributing)<br>
+[6. Technologies Used](#Technologies Used)<br>
+[7. Authors](#Authors)<br>
+[8. Questions](#Questions)<br>
 
-**The following tasks were done to meet these requirements:**
-- Created prompts using javascript for user to choose character length
-- Created prompts using javascript for user to choose which characters they would like to include in their password: uppercase, lowercase, numbers, and/or special characters
-- Created a randomizer based on user criteria to generate a password that matches the given criteria
-- Utilized bootstrap for a clean interface that is responsive on all devices
-- Used CSS to create a clean, unique page
+  
+## Installation 
+Application is deployed [here](https://ohnobenito.github.io/passwordgenerator) so no installation needed for use. 
+
+## Usage 
+A very easy-to-use application! User follows prompts to choose criteria for an auto generated password. 
+
+## License
+This application is covered by the MIT license. Full documentation can be found [here](https://choosealicense.com/licenses/mit).
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Technologies Used
++ JavaScript
++ CSS
++ HTML
++ Bootstrap
+
+## Authors
+This application was created by Benito Gonzalez.
+
+## Questions
+Follow me on GitHub here: [Github](https://www.github.com/Ohnobenito)<br>
+Have additional questions? Contact Benito Gonzalez by email: ohnobenito@gmail.com
+
+
+
+
